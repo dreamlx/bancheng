@@ -30,5 +30,6 @@
           = link_to t(:works), admin_project_works_path(project)
           = link_to t(:edit, scope: "crud"), edit_admin_project_path(project)
           = link_to t(:destroy, scope: "crud"), admin_project_path(project), :method => :delete, :data => { :confirm => 'Are you sure?' }
+= paginate @projects
 
 

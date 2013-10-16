@@ -1,5 +1,6 @@
 class SiteController < ApplicationController
   def projects
+    
   end
 
   def aboutus
